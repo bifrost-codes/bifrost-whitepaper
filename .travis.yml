@@ -14,5 +14,4 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_e97faa040b4d_key -iv $encrypted_e97faa040b4d_iv -in deploy.enc -out ~/.ssh/deploy -d
 - chmod 600 ~/.ssh/deploy
 after_success:
-- ssh $user@$ip -i ~/.ssh/deploy -o stricthostkeychecking=no 'rm -rvf $webroot/*'
 - scp -i ~/.ssh/deploy -o stricthostkeychecking=no -rvf .vuepress/dist/* $user@$ip:$webroot
