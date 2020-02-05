@@ -1,0 +1,5 @@
+files:
+  - source: /zh
+    ignore:
+      - SUMMARY.md
+    translation: '%original_path%/%original_file_name%'
