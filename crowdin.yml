@@ -1,5 +1,15 @@
 files:
-  - source: /zh
+  - source: /zh/*.md
     ignore:
       - SUMMARY.md
-    translation: '%original_path%/%original_file_name%'
+    translation: '%original_file_name%'
+  - source: /zh/cross_chain/*.md
+    translation: cross_chain/%original_file_name%
+  - source: /zh/economic/*.md
+    translation: economic/%original_file_name%
+  - source: /zh/getting_started/*.md
+    translation: getting_started/%original_file_name%
+  - source: /zh/progress/*.md
+    translation: progress/%original_file_name%
+  - source: /zh/system_structure/*.md
+    translation: system_structure/%original_file_name%
