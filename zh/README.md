@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.png
+heroImage: /zh/logo.png
 heroText: Bifrost Whitepaper
 tagline: 为 Staking 提供流动性的跨链网络
 actionText: 开始阅读 →
