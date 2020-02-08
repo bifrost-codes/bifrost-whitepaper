@@ -1,3 +1,2 @@
 # 架构图
-
-PIC
+![system_structure](/zh/system_structure.png)
