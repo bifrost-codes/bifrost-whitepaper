@@ -16,6 +16,6 @@ before_install:
 before_script:
 - echo -e "Host ${ip}\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 after_success:
-- ssh $user@$ip "echo $webroot"
-- ssh $user@$ip "echo ${webroot}"
+- ssh -i ~/.ssh/deploy $user@$ip "echo $webroot"
+- ssh -i ~/.ssh/deploy $user@$ip "echo ${webroot}"
 - scp -i ~/.ssh/deploy -o stricthostkeychecking=no -rv .vuepress/dist/* $user@$ip:$webroot
