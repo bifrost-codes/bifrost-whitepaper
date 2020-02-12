@@ -4,7 +4,7 @@ heroImage: /zh/logo.png
 heroText: Bifrost Whitepaper
 tagline: 为 Staking 提供流动性的跨链网络
 actionText: 开始阅读 →
-actionLink: /en/getting_started/01_marketing.md
+actionLink: /zh/getting_started/01_marketing.md
 features:
   - 
     title: Staking 流动性
@@ -18,4 +18,4 @@ features:
 footer: Copyright © 2019-2020 Bifrost Network and Contributors
 ---
 
-<<< @/en/CHANGELOG.md
+<<< @/zh/CHANGELOG.md
