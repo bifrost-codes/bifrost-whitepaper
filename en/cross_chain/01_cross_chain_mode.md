@@ -15,18 +15,18 @@ Compared to the main chain, the side chain stores the block data and ledger data
 ## Light Node
 In order to verify the correctness of the main chain transaction on the parallel chain, the main chain block must be synchronized to the parallel chain. However, if you want to synchronize the full node block information of the main chain, you need to occupy tens or even hundreds of Gb of storage space, which is not a reasonable processing method. Relatively large nodes require a huge amount of storage. Light nodes only synchronize block header information (the size of each block's header is tens of bytes), and eventually occupy only tens of Mb of space, which is an economical and reasonable choice.
 
-中本聪在比特币白皮书中提到过 SPV (Simplified Payment Verification) 简单支付验证的概念，通过简单支付验证能够在只存储区块头部信息的条件下对交易进行验证。
+Satoshi Nakamoto mentioned the concept of Simple Payment Verification (SPV) in the Bitcoin white paper. Through simple payment verification, transactions can be verified under the condition that only the block header information is stored.
 
 ![light_node](/zh/light_node.png)
 
-区块链中的每个区块有区块头和区块体组成，区块头包含能够验证区块体完整性、合法性的 Merkel 根。
+Each block in the blockchain consists of a block header and a block body. The block header contains a Merkel root that can verify the integrity and legality of the block body.
 
-Merkel 树是一颗平衡二叉树，底部叶子节点存储每笔交易的HASH，然后两两配对计算出新的HASH，重复上述操作直到输出一个结果，既 Merkel 根，并将其存入到区块头。
+The Merkel tree is a balanced binary tree. The leaf nodes at the bottom store the Hash of each transaction, and then pairwise calculate the new Hash. Repeat the above operation until a result is output, that is, the Merkel root, and it is stored in the block header.
 
-### 步骤
-> 通过简单支付验证「交易1」的具体步骤
+### Step
+> Specific steps to verify "Transaction 1" with simple payment
 
-- 运行时模块向主链节点查询「交易1」的 Merkel Block 信息；
-- 收到 Merkel Block 信息，既认证路径（HASH2, HASH34, HASH1234）；
-- 运行时模块根据「交易1」、 Merkel Block 信息计算出 Merkel 根；
-- 将计算出的 Merkel 根与区块头的 Merkel 根比对，一致则表明交易1是合法交易；
+- The runtime module queries the Merkel Block information of "Transaction 1" from the main chain node;
+- Received Merkel Block information, both authentication paths (HASH2, HASH34, HASH1234);
+- The runtime module calculates the Merkel root based on the "Transaction 1" and Merkel Block information;
+- Compare the calculated Merkel root with the Merkel root of the block header. If they match, it indicates that transaction 1 is a legal transaction;
