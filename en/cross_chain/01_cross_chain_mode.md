@@ -1,6 +1,6 @@
-# Cross Chain Mode
+# Cross-chain Model
 
-## 数据验证
+## Data Verify
 > 目前典型的跨链技术有三种 1、见证人模式，2、哈希锁定模式，3、侧链模式。
 
 ### 见证人模式
