@@ -1,19 +1,19 @@
 # Cross-chain Model
 
 ## Data Verify
-> 目前典型的跨链技术有三种 1、见证人模式，2、哈希锁定模式，3、侧链模式。
+> At present, there are three typical cross-chain technologies: 1. Witness 2. Hash lock 3. Side chain.
 
-### 见证人模式
-最易理解的跨链方案。链B想知道链A上发生的交易，让多个见证人把链A上发生的交易各自独立地转发过来。其实就是我们常听说的Oracle预言机系统，链B以类似多签的形式将多个见证人转发的数据进行记录。这中模式适用智能合约或者多签地址。
+### 1. Witness Model
+The most understandable cross-chain solution. Chain B wants to know the transactions happening on chain A, and let multiple witnesses forward the transactions happening on chain A independently. In fact, it is the Oracle oracle system that we often hear. Chain B records the data forwarded by multiple witnesses in a similar multi-signature form. This mode applies to smart contracts or multi-signature addresses.
 
-### 哈希锁定模式
-最早出现在比特币的闪电网络，跨链资产交换支持一定数量的 A 链资产和一定数量的 B 链资产进行原子交换。哈希时间锁定巧妙地采用了哈希锁和时间锁，迫使资产的接收方在超时时间内确定收款并产生一种收款证明给打款人，否则资产会归还给打款人。收款证明能够被付款人用来获取接收人区块链上的等量价值的数量资产或触发其他事件。哈希锁定目前看只适合偏资产或者关键数据的交换。
+### Hash Lock Model
+The earliest appeared in Bitcoin's Lightning Network, cross-chain asset exchange supports a certain number of A chain assets and a certain number of B chain assets for atomic exchange. Hash time lock cleverly uses hash locks and time locks to force the receiver of the asset to determine the receipt within a timeout period and generate a receipt certificate to the sender, otherwise the asset will be returned to the sender. The receipt certificate can be used by the payer to obtain the equivalent amount of assets on the receiver's blockchain or trigger other events. Hash lock is currently only suitable for the exchange of partial assets or key data.
 
-### 侧链模式
-相对于主链而言的，侧链存有主链中的区块数据和账本数据 - 轻节点。侧链实现的基础技术是双向锚定（Two-way Peg），通过双向锚定技术可以将数字资产在主链上进行锁定，使用 SPV 技术对主链交易进行验证，验证通过后将等价的资产在平行链中释放。相反当平行链中相关资产进行锁定时，主链上锚定的等价资产也可以被释放。这种跨链的实现方式简单，相对哈希锁定能够提供更多的跨链交互场景。
+### Side Chain Model
+Compared to the main chain, the side chain stores the block data and ledger data in the main chain-light nodes. The basic technology implemented by the side chain is Two-way Peg. Through two-way anchoring technology, digital assets can be locked on the main chain. SPV technology is used to verify the main chain transaction. After verification, the equivalent Assets are released in a parachain. Conversely, when the related assets in the parallel chain are locked, the equivalent assets anchored on the main chain can also be released. The implementation of this cross-chain is simple, and relative hash locking can provide more cross-chain interaction scenarios.
 
-## 轻节点
-为了在平行链上校验主链交易的正确性，必须将主链区块同步到平行链链上。但是，如果要同步主链全节点区块信息，就需要占用几十甚至上百G的存储空间，这不是合理的处理方式。相对做全节点需要巨大的存储量，轻节点只同步区块头部信息（每个区块头几十字节大小），最终只占用几十M空间，是经济合理的选择。
+## Light Node
+In order to verify the correctness of the main chain transaction on the parallel chain, the main chain block must be synchronized to the parallel chain. However, if you want to synchronize the full node block information of the main chain, you need to occupy tens or even hundreds of Gb of storage space, which is not a reasonable processing method. Relatively large nodes require a huge amount of storage. Light nodes only synchronize block header information (the size of each block's header is tens of bytes), and eventually occupy only tens of Mb of space, which is an economical and reasonable choice.
 
 中本聪在比特币白皮书中提到过 SPV (Simplified Payment Verification) 简单支付验证的概念，通过简单支付验证能够在只存储区块头部信息的条件下对交易进行验证。
 
