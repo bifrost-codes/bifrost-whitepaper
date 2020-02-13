@@ -1,8 +1,13 @@
 module.exports = {
   base: '/whitepaper/',
+  title: 'Bifrost Whitepaper',
+  description: 'A Parachain Designed For Staking Liquidity. 为 Staking 提供流动性的跨链网络。',
   markdown: {
     lineNumbers: true,
   },
+  head: [
+    ['link', { rel: 'shortcut icon', href: '/favicon.png' }]
+  ],
   locales: {
     '/en/': {
       lang: 'en-US',
