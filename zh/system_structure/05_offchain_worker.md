@@ -4,7 +4,7 @@
 
 Off-Chain Worker 在运行时之外有自己的 WASM 执行环境。因此运行在 Off-Chain Worker 中的长期任务不会影响到区块的正常产生。 此外，Off-Chain Worker 可以轻松访问链上状态，用以进行复杂计算。
 
-![offchain_worker](/zh/offchain_worker.png)
+<img :src="$withBase('/zh/offchain_worker.png')" alt="offchain_worker">
 
 ## 优势
 > Off-Chain Worker 相比预言机主要有以下几点优势

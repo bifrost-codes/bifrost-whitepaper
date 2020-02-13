@@ -1,2 +1,2 @@
 # 架构图
-![system_structure](/zh/system_structure.png)
+<img :src="$withBase('/zh/system_structure.png')" alt="system_structure">

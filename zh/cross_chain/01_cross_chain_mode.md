@@ -17,7 +17,7 @@
 
 中本聪在比特币白皮书中提到过 SPV (Simplified Payment Verification) 简单支付验证的概念，通过简单支付验证能够在只存储区块头部信息的条件下对交易进行验证。
 
-![light_node](/zh/light_node.png)
+<img :src="$withBase('/zh/light_node.png')" alt="light_node">
 
 区块链中的每个区块有区块头和区块体组成，区块头包含能够验证区块体完整性、合法性的 Merkel 根。
 
