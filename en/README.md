@@ -1,21 +1,21 @@
 ---
 home: true
-heroImage: /zh/cover.png
+heroImage: /en/cover.png
 heroText: Bifrost Whitepaper
-tagline: 为 Staking 提供流动性的跨链网络
-actionText: 开始阅读 →
-actionLink: /zh/getting_started/01_marketing.md
+tagline: A Parachain Designed For Staking Liquidity
+actionText: Get Started →
+actionLink: /en/getting_started/01_marketing.md
 features:
   - 
-    title: Staking 流动性
-    details: 持有 vToken 即可获得 Staking 收益，vToken 自由交易、使用，并可随时卖回原链资产，无需等待解押。
+    title: Staking Liquidity
+    details: You can get Staking income by holding vToken, vToken is freely traded, used, and can be sold back to the original chain assets at any time without waiting for the unstaking time.
   - 
-    title: Staking 低门槛
-    details: 通过 DEX、Dapp、钱包获得 vToken，持有 vToken 即为参与原链 Staking，同时保留治理权。
+    title: Staking Easily
+    details: Get vToken through DEX, Dapp, and wallet, and hold vToken to participate in the original chain staking while retaining governance on the chain.
   - 
-    title: 开发者 ++
-    details: 为开发者赋能，基于 Bifrost 开发的钱包、矿池、Dapp、DeFi 等生态将从底层获得 Staking 增益，例如：vToken 作为抵押物进行借贷时，其 Staking 收益可抵销部分利息，实现低息借贷。
+    title: Developer ++
+    details: Empowering developers, based on Bifrost's wallet, mining pool, Dapp, DeFi and other ecosystems will get staking gain from the chain layer. eg. when vToken is borrowed as collateral, its staking income can offset part of the interest and realize low-interest loans.
 footer: Copyright © 2019-2020 Bifrost Network and Contributors
 ---
 
-<<< @/zh/CHANGELOG.md
+<<< @/en/CHANGELOG.md
