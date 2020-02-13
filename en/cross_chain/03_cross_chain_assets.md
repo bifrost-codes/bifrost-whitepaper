@@ -6,9 +6,9 @@
 
 用户需要抛售原链资产时，无需执行 UnStake 操作，直接在 DEX 中以原链资产的 X 时间期权价格抛售即可，所以原链资产的价格波动和跨链资产的供需预期将影响到 Bifrost 对应的跨链资产价格，这也是上一章中提到的跨链资产与原链资产的价格无法稳定保持 1:1 的原因。
 
-![user_assets_01](/zh/user_assets_01.png)
+<img :src="$withBase('/zh/user_assets_01.png')" alt="user_assets_01" />
 
-![user_assets_02](/zh/user_assets_02.png)
+<img :src="$withBase('/zh/user_assets_02.png')" alt="user_assets_02" />
 
 Bifrost 跨链资产也将提供 DEX 中的稳定币和原链资产的交易对，非极端情况下（跨链资产价格偏离严重），用户在需要赎回原链资产时也无需等待 UnStake 的时间，直接在跨链资产与原链资产交易对中撮合即可完成原链资产的赎回，其中的利差则可作为立即赎回原链资产的手续费用。
 
