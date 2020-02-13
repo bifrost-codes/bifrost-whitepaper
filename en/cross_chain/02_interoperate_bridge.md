@@ -16,7 +16,7 @@
 - 主链托管合约验证多签交易并自动执行，提现金额转入用户账户；
 - 转接桥轻节点发现主网提现交易成功，将之前锁定的金额销毁；
 
-![interoperability_bridge](/zh/interoperability_bridge.png)
+<img :src="$withBase('/zh/interoperability_bridge.png')" alt="interoperability_bridge" />
 
 Bifrost 转接桥主要具备资产跨链和 Stake 互操作两种功能，用户把资产通过转接桥在原链上锁定，之后在 Bifrost 1:1 映射具备 Stake 附加属性的跨链资产，同时通过转接桥将原链上的资产 Stake 到目标节点中产生收益，由转接桥出发收益领取指令后，Bifrost 将按照跨链资产的持有币龄按比例发放跨链资产收益到相应账户中，以此产生 Stake 自动复利效果。
 
