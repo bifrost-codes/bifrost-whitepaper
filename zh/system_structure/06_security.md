@@ -1,4 +1,8 @@
-# 安全机制
+<div
+style=" display:flex;justify-content:space-between;align-items:center;margin-top: 1.6rem"> 
+<h1 >安全机制</h1>
+<ClientOnly><button-demo> </button-demo></ClientOnly>
+</div>
 
 ## 账户安全
 - Bifrost 为用户提供基于 ed25519、sr25519 算法的账户加密方案。

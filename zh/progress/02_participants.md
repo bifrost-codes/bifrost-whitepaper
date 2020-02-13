@@ -1,4 +1,9 @@
-# 生态参与方
+<div
+style=" display:flex;justify-content:space-between;align-items:center;margin-top: 1.6rem"> 
+<h1 >生态参与方</h1>
+<ClientOnly><button-demo> </button-demo></ClientOnly>
+</div>
+
 ## vToken 持有用户
 将 PoS 资产跨链，无需锁仓获得 Staking 收益，随时赎回原资产与 Staking 收益，参与 BNC 挖矿与波卡平行链生态。
 

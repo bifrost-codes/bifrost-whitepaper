@@ -1,4 +1,8 @@
-# 互操作转接桥
+<div
+style=" display:flex;justify-content:space-between;align-items:center;margin-top: 1.6rem"> 
+<h1 >互操作转接桥</h1>
+<ClientOnly><button-demo> </button-demo></ClientOnly>
+</div>
 
 > 目前主流的公链采用的共识模式存在差异，导致没有统一跨链模式。为了支持主流 POS 公链的跨链，实现跨链的双向操作，Bifrost 转接桥使用了见证人和侧链相结合的混合跨链模式。Bifrost 以侧链的身份，接入各个主链区块头部信息成功轻节点，在主链上部署多签托管合约，由见证人节点对主链合约进行多签操作。
 

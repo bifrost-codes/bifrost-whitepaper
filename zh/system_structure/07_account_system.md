@@ -1,4 +1,9 @@
-# 账户系统
+<div
+style=" display:flex;justify-content:space-between;align-items:center;margin-top: 1.6rem"> 
+<h1 >账户系统</h1>
+<ClientOnly><button-demo> </button-demo></ClientOnly>
+</div>
+
 > 用户在 Bifrost 链上操作需要根据不同的操作复杂度支付矿工手续费，以避免网络攻击及链上资源浪费等行为，用户也可以根据网络的拥堵情况自行提高手续费以加速完成交易打包，用户在 Bifrost 生态中获得的挖矿收益就足以满足日常的非高频操作。
 扣除的用户手续费将作为挖矿收益及节点奖励反哺到 Bifrost 生态中。
 

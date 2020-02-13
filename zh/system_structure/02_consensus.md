@@ -1,4 +1,8 @@
-# 共识算法
+<div
+style=" display:flex;justify-content:space-between;align-items:center;margin-top: 1.6rem"> 
+<h1 >共识算法</h1>
+<ClientOnly><button-demo> </button-demo></ClientOnly>
+</div>
 
 > Bifrost 将使用基于 Polkadot 的 PoS 共识算法 —— GRANDPA / BEBE，这是一种混合共识模型，将区块生产与区块的最终确定分离开来，使区块快速生产且具有概率安全性，是异步安全的。
 

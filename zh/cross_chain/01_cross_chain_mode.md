@@ -1,4 +1,8 @@
-# 跨链模式
+<div
+style=" display:flex;justify-content:space-between;align-items:center;margin-top: 1.6rem"> 
+<h1 >跨链模式</h1>
+<ClientOnly><button-demo> </button-demo></ClientOnly>
+</div>
 
 ## 数据验证
 > 目前典型的跨链技术有三种 1、见证人模式，2、哈希锁定模式，3、侧链模式。

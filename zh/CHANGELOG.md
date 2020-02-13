@@ -1,4 +1,9 @@
-# 更新日志
+<div
+style=" display:flex;justify-content:space-between;align-items:center;margin-top: 1.6rem"> 
+<h1 >更新日志</h1>
+<ClientOnly><button-demo> </button-demo></ClientOnly>
+</div>
+
 - `v0.1.0` Bifrost 白皮书初版
 - `v0.2.0` 增加 BNC 经济模型
 - `v0.3.0` 增加三池估值模型，转接桥技术细节

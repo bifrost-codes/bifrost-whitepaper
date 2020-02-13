@@ -1,4 +1,8 @@
-# 免责声明
+<div
+style=" display:flex;justify-content:space-between;align-items:center;margin-top: 1.6rem"> 
+<h1 >免责声明</h1>
+<ClientOnly><button-demo> </button-demo></ClientOnly>
+</div>
 
 这份白皮书中没有任何内容构成法律、金融、商业或税务方面的建议，在从事任何与此相关的活动之前，你应该咨询你自己的法律、财务、税务或其他专业顾问。无论是 Bifrost 基金会有限公司、项目团队的任何从事 Bifrost 网络的成员，或项目开发 Bifrost 网络团队,任何经销商/供应商 BNC（经销商）都不对因使用 https://bifrost.codes 或任何其他网站访问本白皮书，网站或基金会发布的材料而导致的任何类型直接或间接损失负责。
 	

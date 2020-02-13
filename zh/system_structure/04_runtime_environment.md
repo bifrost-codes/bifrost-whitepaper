@@ -1,4 +1,8 @@
-# 运行时环境
+<div
+style=" display:flex;justify-content:space-between;align-items:center;margin-top: 1.6rem"> 
+<h1 >运行时环境</h1>
+<ClientOnly><button-demo> </button-demo></ClientOnly>
+</div>
 
 > 作为 Bifrost 链的重要组成部分，运行时环境相对智能合约而言更为底层。运行时环境由各种运行时模块组成。运行时模块包括账户、余额、Staking、智能合约、转接桥、治理、共识等模块，模块间可以是相互独立，同时允许模块间相互调用。链的大部分代码逻辑都在运行时环境中运行。
 
