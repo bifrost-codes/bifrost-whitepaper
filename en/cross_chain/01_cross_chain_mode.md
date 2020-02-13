@@ -17,7 +17,7 @@ In order to verify the correctness of the main chain transaction on the parallel
 
 Satoshi Nakamoto mentioned the concept of Simple Payment Verification (SPV) in the Bitcoin white paper. Through simple payment verification, transactions can be verified under the condition that only the block header information is stored.
 
-![light_node](/zh/light_node.png)
+<img :src="$withBase('/zh/light_node.png')" alt="light_node" />
 
 Each block in the blockchain consists of a block header and a block body. The block header contains a Merkel root that can verify the integrity and legality of the block body.
 
