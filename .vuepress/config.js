@@ -6,7 +6,7 @@ module.exports = {
     lineNumbers: true,
   },
   head: [
-    ['link', { rel: 'shortcut icon', href: '/favicon.png' }]
+    ['link', { rel: 'shortcut icon', href: '/favicon_icon.png' }]
   ],
   locales: {
     '/en/': {
