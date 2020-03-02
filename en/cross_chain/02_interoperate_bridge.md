@@ -1,23 +1,23 @@
-# 互操作转接桥
+# Interop bridge
 
-> 目前主流的公链采用的共识模式存在差异，导致没有统一跨链模式。为了支持主流 POS 公链的跨链，实现跨链的双向操作，Bifrost 转接桥使用了见证人和侧链相结合的混合跨链模式。Bifrost 以侧链的身份，接入各个主链区块头部信息成功轻节点，在主链上部署多签托管合约，由见证人节点对主链合约进行多签操作。
+> There are differences in the consensus models currently used in mainstream public chains, resulting in no unified cross-chain model. In order to support the cross-chain of mainstream POS public chains and achieve bi-directional cross-chain operation, Bifrost transfer bridge uses a hybrid cross-chain model combining witnesses and side chains. Bifrost uses the identity of the side chain to access the head information of each main chain block to successfully light nodes, and deploys multi-signature escrow contracts on the main chain. Witness nodes perform multiple sign operations on the main chain contract.
 
-## 主链操作 Bifrost
-- 用户在主链上对托管合约发起代币转入操作；
-- 托管合约锁定用户代币；
-- 转接桥轻节点对用户交易做 SPV 验证；
-- 验证成功后，在 Bifrost 链上发行相应金额的主链映射代币；
+## Main chain operation Bifrost
+- Users initiate token transfer operations on the escrow contract on the main chain;
+- Custody contract locks user tokens;
+- The transit bridge light node performs SPV verification on user transactions;
+- After successful verification, issue the corresponding amount of main chain mapping tokens on the Bifrost chain;
 
-## Bifros 操作主链
-- 用户在 Bifrost 链发起转出操作；
-- Bifrost 链锁定转出金额；
-- 转接桥见证人节点 1 - N 对主网提现交易数据进行多签；
-- 转接桥见证人节 X 将多签提现交易发送给主网；
-- 主链托管合约验证多签交易并自动执行，提现金额转入用户账户；
-- 转接桥轻节点发现主网提现交易成功，将之前锁定的金额销毁；
+## Bifros Operation Main Chain
+- The user initiates a transfer operation on the Bifrost chain;
+- Bifrost chain lockout transfer amount;
+- Transit bridge witness node 1-N performs multiple signings on the mainnet withdrawal transaction data;
+- Transit Bridge Witness Day X sends the multi-signature withdrawal transaction to the main network;
+- The main chain escrow contract verifies the multi-signature transaction and executes it automatically, and the cash amount is transferred to the user account;
+- The transit bridge light node found that the main network withdrawal transaction was successful and destroyed the previously locked amount;
 
 <img :src="$withBase('/zh/interoperability_bridge.png')" alt="interoperability_bridge" />
 
-Bifrost 转接桥主要具备资产跨链和 Stake 互操作两种功能，用户把资产通过转接桥在原链上锁定，之后在 Bifrost 1:1 映射具备 Stake 附加属性的跨链资产，同时通过转接桥将原链上的资产 Stake 到目标节点中产生收益，由转接桥出发收益领取指令后，Bifrost 将按照跨链资产的持有币龄按比例发放跨链资产收益到相应账户中，以此产生 Stake 自动复利效果。
+The Bifrost transfer bridge mainly has two functions of asset cross-chain and Stake interoperability. Users lock assets on the original chain through the transfer bridge, and then map the cross-chain assets with additional attributes of Stake on Bifrost 1: 1. Stake assets on the original chain to the target node to generate revenue. After receiving the instructions from the transfer bridge to start receiving revenue, Bifrost will issue cross-chain asset revenue to the corresponding account in proportion to the age of the currency held by the cross-chain asset. Stake automatically compound interest effect.
 
-用户想要赎回原链资产时，可通过 DEX 相应交易对直接进行撮合交易，但 Bifrost 中具备 Stake 属性的跨链资产与原链资产的价格无法稳定保持 1:1（原因由跨链映射中具体介绍），如若用户需要稳定的 1:1 兑换关系，可以通过转接桥向原链发送 UnStake 指令，等待原链 UnStake 锁定期完成后，用户将等额赎回原链资产。
+When the user wants to redeem the original chain asset, he can directly match the transaction through the DEX corresponding transaction pair, but the price of the cross-chain asset with the Stake attribute in Bifrost and the original chain asset cannot be kept stable 1: 1 (the reason is in the cross-chain mapping (Specific introduction), if the user needs a stable 1:1 exchange relationship, he can send an UnStake instruction to the original chain through the transition bridge and wait for the original chain UnStake lock period to be completed, and the user will redeem the original chain assets in equal amounts.
