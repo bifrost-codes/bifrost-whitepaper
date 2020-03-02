@@ -1,16 +1,15 @@
-# Staking 增益机制
+# Staking gain mechanism
 
-> Bifrost 从底层通过实际收益计算出每秒汇率，通过实时调整与原链资产汇率来实现其他全网清算结算，无需中心化服务器参与，其他业务平行链无需额外开发即可被Bifrost Staking 结算收益覆盖。
+> Bifrost calculates the exchange rate per second from the bottom through the actual income, and realizes other network-wide clearing and settlement by real-time adjustment of the exchange rate with the original chain assets without the need for a centralized server. Other business parallel chains can be covered by Bifrost Staking settlement income without additional development. .
 
-## 实时汇率
-通过前一日 Bifost 实际领取收益计算出当日每秒实时汇率，通过 (1 + 每秒收益率) * 当前汇率 = 下一秒汇率 公式计算出下一秒汇率，并在区块打包同时，将汇率同步到每个 Bifrost 节点，用户可以通过汇兑来实现最终收益的领取。
+## Real Time Exchange Rates
+Calculate the real-time exchange rate per day for the day based on the actual receipt of Bifost on the previous day. Calculate the next-second exchange rate by (1 + return per second) * current exchange rate = next-second exchange rate formula. Synchronized to each Bifrost node, the user can realize the final income collection through exchange.
 
-## 自动复利
-根据每条 PoS 公链的规则不同，Staking 收益领取周期也从每小时至每天不等，Bifrost 清算模块会统一收益时间粒度最小为每秒，即在 Staking 收益领取之后，自动进行再次 Staking，实现原链资产的复利，同时根据当前实际领取收益计算出实时兑换汇率，来帮助用户实现自动复利。
+## Automatic compound interest
+According to the different rules of each PoS public chain, the Staking income collection cycle also varies from hourly to daily. The Bifrost clearing module will uniformly minimize the time granularity of the income to every second, that is, after the Staking income is collected, it will automatically perform Staking again to achieve the original The compound interest of the chain assets, at the same time, calculate the real-time exchange rate based on the current actual receipts to help users achieve automatic compounding.
 
-## 跨平台
-由于 Staking 收益通过汇率增长形式进行发放，故天然具备收益跨平台的属性，用户仅需持有 Stake Token 某时间，即可享受该时间段内汇率的增长收益。其他平行链无需集成清结算模块即可通过汇率增长实现用户收益的发放。
+## Cross-platform
+Since Staking income is issued through exchange rate growth, it naturally has the property of cross-platform income. Users only need to hold Stake Token for a certain period of time, and they can enjoy the growth rate of exchange rate during that period. Other parallel chains do not need to integrate the clearing and settlement module to realize the distribution of user benefits through exchange rate growth.
 
-## 无需锁仓
-Stake Token 在汇率不断增长的同时，也具备交易流动性，用户在赎回原链资产时，可根据当前汇率和市场价格进行卖出，即可立即获得原链资产。
-
+## No need to lock up
+Stake Token also has transaction liquidity while the exchange rate is increasing. When users redeem the original chain assets, they can sell based on the current exchange rate and market price, and they can immediately obtain the original chain assets.

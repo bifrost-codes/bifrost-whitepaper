@@ -1,7 +1,7 @@
-# 三池估值模型
+# Three pool valuation model
 
-> PoS 通证存在三个相连的蓄水池里，分别是资本池，现金池和投机池，Bifrost 通过给资本池提供流动性，合并资本池和投机池的大部分需求，同时通过鲍莫尔托宾模型动态调整 Stake 利率和兑换成本，提升资本池总容量，增加 Bifrost 收入。
+> PoS tokens are stored in three connected reservoirs, namely the capital pool, the cash pool and the speculative pool. Bifrost provides liquidity to the capital pool and merges most of the demand from the capital pool and speculative pool. The Tobin model dynamically adjusts the Stake interest rate and conversion costs to increase the total capacity of the capital pool and increase Bifrost revenue.
 
 <img :src="$withBase('/zh/three_pools.png')" alt="three_pools" />
 
-根据上图鲍莫尔-托宾模型公式得出，通过降低用户兑换赎回成本，增加 Stake 利率，则用户所需平均现金余额越小，用户人均持有 Stake 资产比例越高。同时 Bifrost 从底层提供 Stake 的流动性，使 Stake 资产满足投机需求，将整体提升 Stake 池的总容量。
+According to the above formula of the Bowmore-Tobin model, by reducing the user's redemption cost and increasing the Stake interest rate, the smaller the average cash balance required by the user, the higher the proportion of Stake assets per user. At the same time, Bifrost provides the liquidity of Stake from the bottom, so that Stake assets meet speculative demand, which will increase the overall capacity of the Stake pool as a whole.
