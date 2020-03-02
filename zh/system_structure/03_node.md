@@ -1,8 +1,4 @@
-<div
-style=" display:flex;justify-content:space-between;align-items:center;margin-top: 1.6rem"> 
-<h1 >节点</h1>
-<ClientOnly><button-demo> </button-demo></ClientOnly>
-</div>
+# 节点
 
 > Bifrost 的节点分为同步节点、出块节点、Stake 代理节点，同步节点除出块外拥有被投票、充值通道等权力，同步节点在满足票数阈值时将成为出块节点，拥有同步节点的权力外还具备出块权力，出块节点比同步节点拥有更具备优势的排名获得用户投票和充值，Stake 代理节点由出块节点公投选出，拥有出块节点的权力外还具备获得 Bifrost Stake 的权力，Bifrost 将把资产 Stake 给资产原链的对应节点。
 

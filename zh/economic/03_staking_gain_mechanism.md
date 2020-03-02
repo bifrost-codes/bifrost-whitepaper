@@ -1,8 +1,4 @@
-<div
-style=" display:flex;justify-content:space-between;align-items:center;margin-top: 1.6rem"> 
-<h1 >Staking 增益机制</h1>
-<ClientOnly><button-demo> </button-demo></ClientOnly>
-</div>
+# Staking 增益机制
 
 > Bifrost 从底层通过实际收益计算出每秒汇率，通过实时调整与原链资产汇率来实现其他全网清算结算，无需中心化服务器参与，其他业务平行链无需额外开发即可被Bifrost Staking 结算收益覆盖。
 

@@ -1,8 +1,4 @@
-<div
-style=" display:flex;justify-content:space-between;align-items:center;margin-top: 1.6rem"> 
-<h1 >概述</h1>
-<ClientOnly><button-demo> </button-demo></ClientOnly>
-</div>
+# 概述
 
 Bifrost 是一条使用 Substrate 开发的垂直于 Staking 生态的 Polkadot 平行链，底层基于 WebAssembly，LIBP2P 和 GRANDPA 共识，让用 户可以在资产跨链的同时完成 Staking 并获得相应权益。
 

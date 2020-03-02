@@ -1,8 +1,4 @@
-<div
-style=" display:flex;justify-content:space-between;align-items:center;margin-top: 1.6rem"> 
-<h1 >Stake 代理节点</h1>
-<ClientOnly><button-demo> </button-demo></ClientOnly>
-</div>
+# Stake 代理节点
 
 > 满足「Bifrost 出块节点」、「收益智能合约部署」、「目标公链节点账号绑定」三个条件的 Bifrost 节点可以申请成为 Stake 代理节点。
 

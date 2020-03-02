@@ -4,7 +4,7 @@
 
 Off-Chain Worker has its own WASM execution environment outside the runtime. Therefore, long-term tasks running in the Off-Chain Worker will not affect the normal generation of blocks. In addition, Off-Chain Workers can easily access on-chain states for complex calculations.
 
-<img :src="$withBase('/zh/offchain_worker.png')" alt="offchain_worker" />
+<img :src="$withBase('/en/offchain_worker.png')" alt="offchain_worker" />
 
 ## Advantage
 > Off-Chain Worker has the following advantages over oracles

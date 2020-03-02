@@ -1,8 +1,4 @@
-<div
-style=" display:flex;justify-content:space-between;align-items:center;margin-top: 1.6rem"> 
-<h1 >跨链资产映射</h1>
-<ClientOnly><button-demo> </button-demo></ClientOnly>
-</div>
+# 跨链资产映射
 
 > 由原链映射到 Bifrost 当中的跨链资产在保留跨链全部功能外，还提供具备 Stake 加成属性的资产，只需要持有即可获得对应数量原链资产 Stake 所产生的收益，并且是可以自由交易的资产。
 

@@ -1,8 +1,4 @@
-<div
-style=" display:flex;justify-content:space-between;align-items:center;margin-top: 1.6rem"> 
-<h1 >三池估值模型</h1>
-<ClientOnly><button-demo> </button-demo></ClientOnly>
-</div>
+# 三池估值模型
 
 > PoS 通证存在三个相连的蓄水池里，分别是资本池，现金池和投机池，Bifrost 通过给资本池提供流动性，合并资本池和投机池的大部分需求，同时通过鲍莫尔托宾模型动态调整 Stake 利率和兑换成本，提升资本池总容量，增加 Bifrost 收入。
 
