@@ -1,4 +1,5 @@
 # Change Log
+
 - `v0.1.0` Bifrost White Paper Initialization
 - `v0.2.0` Added BNC economic model
 - `v0.3.0` Added three pool valuation model, technical details of the bridge
