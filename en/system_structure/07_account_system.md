@@ -1,21 +1,21 @@
-# 账户系统
-> 用户在 Bifrost 链上操作需要根据不同的操作复杂度支付矿工手续费，以避免网络攻击及链上资源浪费等行为，用户也可以根据网络的拥堵情况自行提高手续费以加速完成交易打包，用户在 Bifrost 生态中获得的挖矿收益就足以满足日常的非高频操作。 扣除的用户手续费将作为挖矿收益及节点奖励反哺到 Bifrost 生态中。
+# Account system
+> Users operating on the Bifrost chain need to pay miner fees according to different operational complexity to avoid network attacks and waste of resources on the chain. Users can also increase the fees themselves to speed up transaction packaging based on network congestion. Users The mining revenue obtained in the Bifrost ecosystem is sufficient for daily non-high frequency operations. The deducted user fees will be fed back to the Bifrost ecosystem as mining revenue and node rewards.
 
-## BNC 使用场景
-### 收益凭证
-Bifrost 支持多链资产跨链挖矿，BNC 将于资产挖矿双向激励，用户持有 BNC 将成为其他跨链资产的增益权凭证。
+## BNC usage scenarios
+### Proof of Revenue
+Bifrost supports cross-chain mining of multi-chain assets. BNC will provide two-way incentives for asset mining. Users holding BNC will become gain certificates for other cross-chain assets.
 
-### 矿工费用
-用于支付矿工费用
+### Miner fees
+For paying miners
 
-### 市值单位
-作为资产挖矿时的市值单位，根据 BNC 交易对价格计算资产挖矿算力。
+### Market value unit
+As the market value unit for asset mining, the computing power of asset mining is calculated based on the BNC transaction pair price.
 
-### 抵押品
-信托节点和共识节点为了增强自身信用的抵押品，节点利益绑定 最深，就越容易获得用户投票。
+### Collateral
+In order for trust nodes and consensus nodes to enhance their own collateral, the node's interests are tied the deepest, and the easier it is for users to vote.
 
-### 衡量标准
-总得票数越高肩负的出块和共识 责任越大，也是链上治理的抵押和投票工具。
+### Metrics
+The higher the total number of votes, the greater the burden of block generation and consensus. It is also a mortgage and voting tool for on-chain governance.
 
-### 兑换媒介
-Bifrost 通证，将在 Bifrost 生态中充当基础货币和兑换媒介。
+### Exchange medium
+Bifrost tokens will serve as the base currency and exchange medium in the Bifrost ecosystem.
