@@ -1,7 +1,7 @@
 module.exports = {
   base: '/whitepaper/',
   title: 'Bifrost Whitepaper',
-  description: 'A Parachain Designed For Staking Liquidity. 为 Staking 提供流动性的跨链网络。',
+  description: "A parachain designed for staking's liquidity. 为 Staking 提供流动性的跨链网络。",
   markdown: {
     lineNumbers: true,
   },
@@ -12,7 +12,7 @@ module.exports = {
     '/en/': {
       lang: 'en-US',
       title: 'Bifrost Whitepaper',
-      description: 'A Parachain Designed For Staking Liquidity',
+      description: "A parachain designed for staking's liquidity",
     },
     '/zh/': {
       lang: 'zh-CN',
