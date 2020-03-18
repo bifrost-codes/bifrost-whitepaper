@@ -1,6 +1,6 @@
-# BNC Token
+# Bifrost Network Coin
 ## Basic info
-- Total supply: 80000000
+- Total supply: 80,000,000
 - Full name: Bifrost Network Coin
 - Symbol: BNC
 

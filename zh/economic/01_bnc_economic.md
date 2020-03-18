@@ -1,6 +1,6 @@
-# BNC Token
+# Bifrost Network Coin
 ## 基本信息
-- 总量 80000000
+- 总量 80,000,000
 - 全称 Bifrost Network Coin
 - 简称 BNC
 
