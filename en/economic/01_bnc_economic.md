@@ -11,7 +11,7 @@
 - 38% Ecosystem
     - 35% IPO (Initial parachain offers)
     - 35% Exchange vToken incentives
-    - 15% Collect node incentives
+    - 15% Collector node incentives
     - 10% Oracle
     - 5% Cost of cross chain (Bridge Contract RAM/CPU .etc)
 - 20% Founders
