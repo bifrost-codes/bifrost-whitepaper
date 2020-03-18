@@ -5,6 +5,9 @@
 - 简称 BNC
 
 ## 分配
+<img :src="$withBase('/zh/bnc_distribution.png')" alt="bnc_distribution">
+<img :src="$withBase('/zh/bnc_ecosystem.png')" alt="bnc_ecosystem">
+
 - 38% Ecosystem
     - 35% IPO (Initial parachain offers)
     - 35% Exchange vToken incentives
@@ -16,6 +19,3 @@
 - 8% Foundation (Developer/Grant/Community)
 - 10% Private
 - 16% Reserved (Financing or destroy)
-
-<img :src="$withBase('/zh/bnc_distribution.png')" alt="bnc_distribution">
-<img :src="$withBase('/zh/bnc_ecosystem.png')" alt="bnc_ecosystem">
