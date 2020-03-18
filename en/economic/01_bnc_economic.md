@@ -1,12 +1,12 @@
-# BNC Token
+# Bifrost Network Coin
 ## 基本信息
-- 总量 80000000
-- 符号 BNC
+- 总量 80,000,000
 - 全称 Bifrost Network Coin
+- 简称 BNC
 
 ## 分配
-<img :src="$withBase('/zh/bnc_distribution.png')" alt="light_node" />
-<img :src="$withBase('/zh/bnc_ecosystem.png')" alt="light_node" />
+<img :src="$withBase('/zh/bnc_distribution.png')" alt="bnc_distribution" />
+<img :src="$withBase('/zh/bnc_ecosystem.png')" alt="bnc_ecosystem" />
 
 - 38% Ecosystem
     - 35% IPO (Initial parachain offers)
