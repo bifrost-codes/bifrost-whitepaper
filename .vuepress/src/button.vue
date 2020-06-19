@@ -9,7 +9,7 @@ export default {
   props: ["c"],
   methods: {
     a: function() {
-      window.open("https://translate.bifrost.codes/project/bifrost-network/en#");
+      window.open("https://translate.bifrost.finance/project/bifrost-network/en#");
     }
   }
 };
