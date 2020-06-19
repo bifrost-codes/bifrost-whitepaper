@@ -4,7 +4,7 @@
 - 全称 Bifrost Network Coin
 - 简称 BNC
 
-## 分配
+## 分配方式
 <img :src="$withBase('/zh/bnc_distribution.png')" alt="bnc_distribution" />
 <img :src="$withBase('/zh/bnc_ecosystem.png')" alt="bnc_ecosystem" />
 
