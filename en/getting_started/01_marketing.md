@@ -1,7 +1,7 @@
-# Background
+# 背景
 
-With more and more public chains adopting the PoS consensus to improve project availability and decentralization, 80 PoS public chains with a total market value of more than $ 145.3 billion have been born. Through Stake alone, more than $ 2.5 billion in revenue will be generated each year. With the addition of Ethereum Casper and Polkadot, the market value of PoS projects will reach ¼ of the overall market by the end of 2019.
+随着越来越多的公链采用 PoS 共识来提升项目可用性和去中心化，目前已有 80+ 条总市值超过 1,453 亿美元的 PoS 公链诞生，仅通过 Staking 每年将产生超过 25 亿美元的收益，随着 Ethereum Casper、Polkadot 的加入，2019 年底 PoS 项目市值将达到整体市场的 ¼ 规模。
 
-However, Stake still has many problems such as high participation threshold, no liquidity, governance and conflict of interest. PoS and PoW also have Byzantine fault tolerance issues. More users need to participate in Stake to make the entire network more decentralized and more It runs safely, and some projects adopt a centralized hosting solution in order to solve the above problems of Stake. We believe that this bottom-up approach may increase user Stake participation in the short term, but in the long run, it will gradually erode the PoS ecosystem. The centralized system makes the system no longer secure.
+但目前 Staking 仍然存在如参与门槛高、无流动性、治理与利益冲突等诸多问题，PoS 与PoW 同样存在拜占庭容错问题，需要更多的用户参与到 Staking，才能让整个网络更加去中心化、更加安全地运行，而部分项目为了解决 Staking 以上问题采用中心化托管的方案，我们认为这种本末倒置的做法在短期可能提升用户 Staking 的参与度，但从长期来说，它将逐渐侵蚀 PoS 生态的去中心化体系，让系统变得不再安全。
 
-In using a decentralized approach to solve the existing problems of Stake, we verified an interesting solution that can organically combine cross-chain and Stake and use the advantages of both parties to solve the current major problems.
+在使用去中心化方式来解决 Staking 现存的问题中，我们验证出一个有趣的方案，可以将跨链与 Staking 来有机结合，利用两方优势来解决当前所存在的问题。
