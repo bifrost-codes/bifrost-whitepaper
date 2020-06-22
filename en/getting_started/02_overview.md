@@ -1,9 +1,9 @@
-# Overview
+# 概述
 
-Bifrost is a Polkadot parallel chain developed by Substrate that is perpendicular to the Staking ecosystem. The underlying layer is based on the WebAssembly, LIBP2P, and GRANDPA consensus, allowing users to complete Staking and obtain corresponding rights while assets cross-chain.
+Bifrost 是一条使用 Substrate 开发的垂直于 Staking 生态的 Polkadot 平行链，底层基于 WebAssembly，LIBP2P 和 GRANDPA 共识，让用 户可以在资产跨链的同时完成 Staking 并获得相应权益。
 
-Bifrost uses the cross-chain method of the transfer bridge to access multiple PoS main chains. Through the cross-chain Stake assets, it has the advantages of no need to lock positions, automatic compound interest, and Stake agents. Mapping into the Bifrost parachain will get corresponding mapped assets (vEOS, vDOT, vATOM, etc.). Users only need to hold the mapped assets to get corresponding Stake income according to the holding amount.
+Bifrost 使用转接桥的跨链方式接入多条 PoS 主 链，通过跨链的 Staking 资产具备无需锁仓、自动复 利、Staking 代理等优势，用户将 EOS、DOT、ATOM 等资产通过 Bifrost 转接桥映 射进入 Bifrost 平行链，将会获得对应的映射资产 (vDOT、vKSM、vEOS 等)，用户只需持有映射 资产即可根据持有量获得对应 Staking 收益。
 
-Bifrost supports the asset mining model of One Asset One Vote. It measures mining weights based on the market value of EOS, DOT, ATOM and other assets mapped by users across the chain, and issues new coins using the model of gradually halving Bitcoin from zero. BNC issued by Fair Distribution System.
+Bifrost 支持 One Asset One Vote 的资产挖矿模 式，根据用户跨链映射进来的 EOS、DOT、ATOM 等多种资产的市值衡量挖矿权重，沿用比特币从零 开始逐步减半的模式发行新币，公平分配系统发行 的 BNC。
 
-As a parallel chain of the Polkadot architecture, Bifrost provides Stake logic from the bottom. Applications such as DEX and DApp built on Bifrost will obtain native Stake gains. This method will greatly expand the Stake scenario. Users can directly recharge the map or DEX. When purchasing cross-chain assets, he passively participated in the ecological construction of Stake.
+Bifrost 作为 Polkadot 架构平行链，从底层提供 Staking 逻辑，构建在 Bifrost 之上的 DEX、DApp 等应用将获得原生的 Staking 增益，此种方式将很大 程度上扩充 Staking 场景，用户在充值映射或 DEX 直接购买跨链资产的同时，就被动参与到了 Staking 的生态建设当中来。
