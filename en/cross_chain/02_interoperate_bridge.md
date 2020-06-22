@@ -16,7 +16,7 @@
 - The main chain escrow contract verifies the multi-signature transaction and executes it automatically, and the cash amount is transferred to the user account;
 - The transit bridge light node found that the main network withdrawal transaction was successful and destroyed the previously locked amount;
 
-<img :src="$withBase('/en/interoperability_bridge.png')" alt="interoperability_bridge" />
+<img :src="$withBase('/zh/interoperability_bridge.png')" alt="interoperability_bridge" />
 
 The Bifrost transfer bridge mainly has two functions of asset cross-chain and Stake interoperability. Users lock assets on the original chain through the transfer bridge, and then map the cross-chain assets with additional attributes of Stake on Bifrost 1: 1. Stake assets on the original chain to the target node to generate revenue. After receiving the instructions from the transfer bridge to start receiving revenue, Bifrost will issue cross-chain asset revenue to the corresponding account in proportion to the age of the currency held by the cross-chain asset. Stake automatically compound interest effect.
 
