@@ -1,9 +1,9 @@
-# Security Mechanism
+# 安全机制
 
-## account security
-- Bifrost provides users with an account encryption scheme based on the ed25519 and sr25519 algorithms.
-- Multi-signature for cross-chain operation
-- Public chain account and contract maintenance costs (deployment, upgrade RAM, transaction CPU / GAS)
+## 账户安全
+- Bifrost 为用户提供基于 ed25519、sr25519 算法的账户加密方案。
+- 跨链操作多签
+- 公链账户、合约维护费用（部署、升级RAM，交易CPU/GAS）
 
-## Asset Security
-The assets locked by the user in the main chain through the cross-chain are multi-signed by the escrow contract, and the escrow contract is jointly managed by multiple witness nodes. Through the decentralized governance mechanism, the witness nodes are elected by the participants according to the voting share, and are rotated regularly. At the same time, when the assets held by the main chain escrow contract are too large, they can be split into multiple escrow contracts, and more trust node groups are introduced for custody to improve overall security.
+## 资产安全
+用户通过跨链锁定在主链的资产由托管合约进行多签保管，托管合约由多个见证人节点共同管理。见证人节点通过去中心化治理机制有参与方按照投票份额选举产生，定期轮换。同时，当主链托管合约所保管资产过于庞大时，可以拆分到多个托管合约中，引入更多信托节点分组进行保管，提升整体安全性。
