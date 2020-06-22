@@ -1,3 +1,3 @@
-# System Structure
+# 架构图
 
-<img :src="$withBase('/en/system_structure.png')" alt="system_structure">
+<img :src="$withBase('/zh/system_structure.png')" alt="system_structure" />
