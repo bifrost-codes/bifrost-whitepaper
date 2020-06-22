@@ -1,10 +1,10 @@
 # Bifrost Network Coin
-## 基本信息
-- 总量 80,000,000
-- 全称 Bifrost Network Coin
-- 简称 BNC
+## Basic info
+- Total supply: 80,000,000
+- Full name: Bifrost Network Coin
+- Symbol: BNC
 
-## 分配方式
+## Distribution
 <img :src="$withBase('/zh/bnc_distribution.png')" alt="bnc_distribution" />
 <img :src="$withBase('/zh/bnc_ecosystem.png')" alt="bnc_ecosystem" />
 
@@ -19,3 +19,17 @@
 - 8% Foundation (Developer/Grant/Community)
 - 10% Private
 - 16% Reserved (Financing or destroy)
+
+## 经济系统（38%）
+### vToken 激励（35%）
+Bifrost 网络会预留 10,640,000 BNC (80,000,000 * 38% * 35%) 用来激励兑换 vToken 的用户，兑换金额根据
+
+### IPO
+### 收集人节点
+### Oracle
+### 跨链费用支出
+## 创始团队
+## IEO
+## 基金会
+## 私募
+## 保留
