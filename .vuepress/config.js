@@ -1,18 +1,18 @@
 module.exports = {
   base: '/whitepaper/',
   title: 'Bifrost Whitepaper',
-  description: 'A Parachain Designed For Staking Liquidity. 为 Staking 提供流动性的跨链网络。',
+  description: "A parachain designed for staking's liquidity. 为 Staking 提供流动性的跨链网络。",
   markdown: {
     lineNumbers: true,
   },
   head: [
-    ['link', { rel: 'shortcut icon', href: '/favicon.png' }]
+    ['link', { rel: 'shortcut icon', href: '/favicon_icon.png' }]
   ],
   locales: {
     '/en/': {
       lang: 'en-US',
       title: 'Bifrost Whitepaper',
-      description: 'A Parachain Designed For Staking Liquidity',
+      description: "A parachain designed for staking's liquidity",
     },
     '/zh/': {
       lang: 'zh-CN',
@@ -36,15 +36,13 @@ module.exports = {
           },
         },
         nav: [
-          {text: 'Home', link: 'https://bifrost.codes'},
+          {text: 'Home', link: 'https://bifrost.finance'},
           {
             text: 'Documentation',
             items: [
-              {text: 'Developer', link: 'https://docs.bifrost.codes/developer'},
-              {
-                text: 'Whitepaper',
-                link: 'https://docs.bifrost.codes/whitepaper',
-              },
+              {text: 'Developer', link: 'https://docs.bifrost.finance/developer'},
+              {text: 'Whitepaper',  link: 'https://docs.bifrost.finance/whitepaper'},
+              {text: 'Wiki', link: 'https://docs.bifrost.finance/wiki'},
             ],
           },
           {text: 'GitHub', link: 'https://github.com/bifrost-codes'},
@@ -134,12 +132,13 @@ module.exports = {
           },
         },
         nav: [
-          {text: '首页', link: 'https://bifrost.codes'},
+          {text: '首页', link: 'https://bifrost.finance'},
           {
             text: '文档',
             items: [
-              {text: '开发文档', link: 'https://docs.bifrost.codes/developer'},
-              {text: '白皮书', link: 'https://docs.bifrost.codes/whitepaper'},
+              {text: 'Developer', link: 'https://docs.bifrost.finance/developer'},
+              {text: 'Whitepaper', link: 'https://docs.bifrost.finance/whitepaper'},
+              {text: 'Wiki', link: 'https://docs.bifrost.finance/wiki'},
             ],
           },
           {text: 'GitHub', link: 'https://github.com/bifrost-codes'},

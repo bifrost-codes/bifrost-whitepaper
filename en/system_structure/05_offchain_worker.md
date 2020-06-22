@@ -1,24 +1,24 @@
 # Off-Chain Worker
 
-> Off-Chain Worker 是 Bifrost 的子系统，其中可以执行需要长期运行、非确定性的任务（例如，Web请求，加密/解密和数据签名，随机数生成，CPU密集型计算，链上数据的枚举/聚合等） 。这些任务的执行相比块执行往往需要更长时间。
+> Off-Chain Worker is a subsystem of Bifrost, which can perform long-running, non-deterministic tasks (such as web requests, encryption / decryption and data signing, random number generation, CPU-intensive calculations, and enumeration of data on the chain Citation / aggregation, etc.). These tasks tend to take longer than block execution.
 
-Off-Chain Worker 在运行时之外有自己的 WASM 执行环境。因此运行在 Off-Chain Worker 中的长期任务不会影响到区块的正常产生。 此外，Off-Chain Worker 可以轻松访问链上状态，用以进行复杂计算。
+Off-Chain Worker has its own WASM execution environment outside the runtime. Therefore, long-term tasks running in the Off-Chain Worker will not affect the normal generation of blocks. In addition, Off-Chain Workers can easily access on-chain states for complex calculations.
 
-<img :src="$withBase('/zh/offchain_worker.png')" alt="offchain_worker" />
+<img :src="$withBase('/en/offchain_worker.png')" alt="offchain_worker" />
 
-## 优势
-> Off-Chain Worker 相比预言机主要有以下几点优势
+## Advantage
+> Off-Chain Worker has the following advantages over oracles
 
-- Off-Chain Worker 作为节点的一部分，相比中心化的预言机服务，更具去中心化特性；
-- Off-Chain Worker 能够通过执行交易做到安全、无缝地与运行时进行交互；
-- 无需维护外部服务，减少节点运营者设施维护费用；
-- 可以通过标准治理机制对 Off-Chain Worker 无缝地进行功能升级；
+- Off-Chain Worker, as part of the node, is more decentralized than the centralized oracle service;
+- Off-Chain Worker can securely and seamlessly interact with the runtime by executing transactions;
+- No need to maintain external services, reducing node maintenance facility maintenance costs;
+- Off-Chain Worker can be upgraded seamlessly through standard governance mechanism;
 
-## 功能
-> Bifrost 结合 Off-Chain Worker 提供哪些功能
+## Features
+> What features does Bifrost combine with Off-Chain Worker
 
-- 定时结算；
-- 交易签名、多签；
-- 公链合约调用；
-- 公链账户控制；
-- 第三方交易所价格同步；
+- Regular settlement;
+- Transaction signature and multi-signature;
+- Public chain contract call;
+- Public chain account control;
+- Third-party exchange price synchronization;

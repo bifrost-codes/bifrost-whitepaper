@@ -1,8 +1,7 @@
 ---
 home: true
-heroImage: /en/cover.png
 heroText: Bifrost Whitepaper
-tagline: A Parachain Designed For Staking Liquidity
+tagline: A parachain designed for staking's liquidity
 actionText: Get Started →
 actionLink: /en/getting_started/01_marketing.md
 features:

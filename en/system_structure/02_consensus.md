@@ -1,6 +1,5 @@
-# 共识算法
+# Consensus algorithm
 
-> Bifrost 将使用基于 Polkadot 的 PoS 共识算法 —— GRANDPA / BEBE，这是一种混合共识模型，将区块生产与区块的最终确定分离开来，使区块快速生产且具有概率安全性，是异步安全的。
+> Bifrost will use the Polkadot-based PoS consensus algorithm-GRANDPA / BEBE, which is a hybrid consensus model that separates block production from the final determination of the block, so that the block is quickly produced and has probabilistic security. Asynchronous safe.
 
-通过 GRANDPA 共识可以建立一个更安全，更有弹性的网络。在良好的网络条件下，GRANDPA几乎可以瞬间完成分块。在糟糕的网络条件下，比如网络分区，GRANDPA可以在分区解析时一次性完成大量的块(理论上是数百万个)。
-
+A more secure and resilient network can be established through the GRANDPA consensus. Under good network conditions, GRANDPA can complete the block almost instantaneously. Under bad network conditions, such as network partitioning, GRANDPA can complete a large number of blocks at one time (theoretically millions) during partition resolution.

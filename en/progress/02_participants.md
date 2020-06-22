@@ -1,25 +1,24 @@
-# 生态参与方
+# Ecological participants
+## vToken holders
+PoS assets are cross-chained, no need to lock up to obtain Staking income, redeem the original assets and Staking income at any time, and participate in BNC mining and Boca parallel chain ecology.
 
-## vToken 持有用户
-将 PoS 资产跨链，无需锁仓获得 Staking 收益，随时赎回原资产与 Staking 收益，参与 BNC 挖矿与波卡平行链生态。
+## BNC vote
+Use BNC to participate in block node, synchronization node, and Stake proxy node voting, and asset Stake to select cross-chain target nodes to provide decision-making, to obtain node voting rewards, and to bear the node offline or evil punishment.
 
-## BNC 投票
-使用 BNC 参与出块节点、同步节点、Stake 代理节点投票，与资产 Stake 选择跨链目标节点提供决策，获得节点投票奖励同时需承担节点掉线或作恶惩罚。
+## Verify node
+The top 100 nodes with total votes are responsible for the bookkeeping processing and packaging of block-chain user transactions, and receive 10% of the user's voting income.
 
-## 验证节点
-总得票数前 100 名的节点，负责全链⽤户交易的记账处理和打包出块，获得用户投票收益的 10%。
+## Sync Node
+The remaining nodes ranked behind in total votes are responsible for setting up synchronous nodes to receive transactions and broadcast data, and will receive the same revenue as the block-producing nodes.
 
-## 同步节点
-总得票数排名靠后的其余节点，负责搭建同步节点接收交易和⼴播数据，将获得与出块节点相同⽐例的收益。
-
-## Stake 代理节点
-满足出块节点条件，在多个 PoS 目标链搭建节点，负责接受托管资产的 Stake 代理，是综合实力较强的多链专业节点。
+## Stake proxy node
+Satisfy the conditions of the node that generates the block, build nodes on multiple PoS target chains, and be responsible for accepting stake agents for escrow assets. It is a multi-chain professional node with strong comprehensive strength.
 
 ## vToken DEX
-给 Staking 资产提供流动性，撮合 Staking 与 UnStaking 用户交易，Staking 用户赚取 UnStaking 立即赎回用户的贴现收益。
+Provide liquidity to Staking assets, match Staking and UnStaking user transactions, Staking users earn UnStaking redemption users' discounted profits immediately.
 
-## 跨链渠道
-各类矿池、钱包和社区开发人员帮助用户进行资产跨链、无需锁仓 Staking，渠道方可获得用户 Staking 收益抽成。
+## Cross-chain channels
+Various types of mining pools, wallets and community developers help users to cross-chain assets without locking Staking, and channels can get user Staking profits.
 
-## 开发社区
-开发者可以基于 Bifrost 底层，开发矿池、Dapp、DeFi 等应用，满足原业务诉求的同时，获得 Staking 增益。
+## Development community
+Developers can develop applications such as mining pools, Dapps, and DeFi based on the bottom layer of Bifrost, while satisfying the original business requirements, and gaining staking gains.
