@@ -38,6 +38,10 @@ module.exports = {
         nav: [
           {text: 'Home', link: 'https://bifrost.finance'},
           {
+            text: 'Translate',
+            link: 'http://whitepaper-translate.bifrost.finance/',
+          },
+          {
             text: 'Documentation',
             items: [
               {text: 'Developer', link: 'https://docs.bifrost.finance/developer'},
@@ -133,6 +137,10 @@ module.exports = {
         },
         nav: [
           {text: '首页', link: 'https://bifrost.finance'},
+          {
+            text: '翻译',
+            link: 'http://whitepaper-translate.bifrost.finance/',
+          },
           {
             text: '文档',
             items: [
