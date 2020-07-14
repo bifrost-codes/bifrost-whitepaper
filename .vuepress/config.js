@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/whitepaper/',
+  base: '/',
   title: 'Bifrost Whitepaper',
   description: "A parachain designed for staking's liquidity. 为 Staking 提供流动性的跨链网络。",
   markdown: {
@@ -44,9 +44,9 @@ module.exports = {
           {
             text: 'Documentation',
             items: [
-              {text: 'Developer', link: 'https://docs.bifrost.finance/developer'},
-              {text: 'Whitepaper',  link: 'https://docs.bifrost.finance/whitepaper'},
-              {text: 'Wiki', link: 'https://docs.bifrost.finance/wiki'},
+              {text: 'Developer', link: 'https://developer.bifrost.finance'},
+              {text: 'Whitepaper',  link: 'https://whitepaper.bifrost.finance'},
+              {text: 'Wiki', link: 'https://wiki.bifrost.finance'},
             ],
           },
           {text: 'GitHub', link: 'https://github.com/bifrost-finance'},
@@ -144,9 +144,9 @@ module.exports = {
           {
             text: '文档',
             items: [
-              {text: 'Developer', link: 'https://docs.bifrost.finance/developer'},
-              {text: 'Whitepaper', link: 'https://docs.bifrost.finance/whitepaper'},
-              {text: 'Wiki', link: 'https://docs.bifrost.finance/wiki'},
+              {text: 'Developer', link: 'https://developer.bifrost.finance'},
+              {text: 'Whitepaper', link: 'https://whitepaper.bifrost.finance'},
+              {text: 'Wiki', link: 'https://wiki.bifrost.finance'},
             ],
           },
           {text: 'GitHub', link: 'https://github.com/bifrost-finance'},
