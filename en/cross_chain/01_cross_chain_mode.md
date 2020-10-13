@@ -1,7 +1,7 @@
 # Cross-chain Model
 
 ## Data Verify
-> At present, there are three typical cross-chain technologies: 1. Witness 2. Hash lock 3. Side chain.
+> 目前典型的跨链技术有三种 1、见证人模式，2、哈希锁定模式，3、侧链模式
 
 ### 1. Witness Model
 The most understandable cross-chain solution. Chain B wants to know the transactions happening on chain A, and let multiple witnesses forward the transactions happening on chain A independently. In fact, it is the Oracle oracle system that we often hear. Chain B records the data forwarded by multiple witnesses in a similar multi-signature form. This mode applies to smart contracts or multi-signature addresses.
