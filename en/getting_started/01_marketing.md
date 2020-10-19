@@ -1,7 +1,0 @@
-# Background
-
-With more and more public chains adopting the PoS consensus to improve project availability and decentralization, 80 PoS public chains with a total market value of more than $ 145.3 billion have been born. Through Stake alone, more than $ 2.5 billion in revenue will be generated each year. With the addition of Ethereum Casper and Polkadot, the market value of PoS projects will reach ¼ of the overall market by the end of 2019.
-
-However, Stake still has many problems such as high participation threshold, no liquidity, governance and conflict of interest. PoS and PoW also have Byzantine fault tolerance issues. More users need to participate in Stake to make the entire network more decentralized and more It runs safely, and some projects adopt a centralized hosting solution in order to solve the above problems of Stake. We believe that this bottom-up approach may increase user Stake participation in the short term, but in the long run, it will gradually erode the PoS ecosystem. The centralized system makes the system no longer secure.
-
-In using a decentralized approach to solve the existing problems of Stake, we verified an interesting solution that can organically combine cross-chain and Stake and use the advantages of both parties to solve the current major problems.
