@@ -1,6 +1,6 @@
 module.exports = {
   base: '/',
-  title: 'Bifrost Whitepaper',
+  title: 'Bifrost Finance Whitepaper',
   description: "A parachain designed for staking's liquidity. 为 Staking 提供流动性的跨链网络。",
   markdown: {
     lineNumbers: true,
@@ -11,12 +11,12 @@ module.exports = {
   locales: {
     '/en/': {
       lang: 'en-US',
-      title: 'Bifrost Whitepaper',
+      title: 'Bifrost Finance Whitepaper',
       description: "A parachain designed for staking's liquidity",
     },
     '/zh/': {
       lang: 'zh-CN',
-      title: 'Bifrost Whitepaper',
+      title: 'Bifrost Finance Whitepaper',
       description: '为 Staking 提供流动性的跨链网络',
     },
   },
@@ -53,12 +53,25 @@ module.exports = {
         ],
         sidebar: [
           {
-            title: 'Getting Started',
+            title: 'Marketing Overview',
             collapsable: false,
             sidebarDepth: 0,
             children: [
-              ['/en/getting_started/01_marketing.md', 'Marketing'],
-              ['/en/getting_started/02_overview.md', 'Overview'],
+              ['/en/maketing_overview/01_marketing.md', 'Marketing'],
+              ['/en/maketing_overview/02_Conflicts_between_Staking_and_DeFi_rewards.md', 'Competition between Staking and DeFi rewards'],
+              ['/en/maketing_overview/03_Conflicts_between_Liquidity_and_Security_in_PoS.md', 'Conflicts between Liquidity and Security in PoS'],
+              ['/en/maketing_overview/04_Conflicts_between_Liquidity_and_Security_in_PoS.md', 'Conflicts between Liquidity and Security in PoS'],
+            ],
+          },
+          {
+            title: 'Project',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              ['/en/Project_introduction/01_Project Introduction.md', 'Project Introduction'],
+              ['/en/Project_introduction/02_Implementation_Plan.md', 'Implementation Plan'],
+              ['/en/Project_introduction/03_Business - Staking.md', 'Business - Staking'],
+              ['/en/Project_introduction/04_Business - IPO.md', 'Buiness - IPO'],
             ],
           },
           {
@@ -66,44 +79,48 @@ module.exports = {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-              ['/en/economic/01_bnc_economic.md', 'BNC Economic'],
-              ['/en/economic/02_three_pools_valuation_model.md', 'Valuation Model'],
-              ['/en/economic/03_staking_gain_mechanism.md', 'Staking Gain Mechanism'],
-              ['/en/economic/04_stake_proxy_node.md', 'Stake Proxy Node'],
+              ['/en/economic/01_Economic_Objectives.md', 'Economic Objectives'],
+              ['/en/economic/02_Voucher_Token_(vToken).md', 'Voucher Token (vToken)'],
+              ['/en/economic/03_Staking_Derivatives.md', 'Staking Derivatives'],
+              ['/en/economic/04_reward_settlement_forms.md', 'Reward Settlement Forms'],
+              ['/en/economic/05_Reward_Generation.md', 'Reward Generation'],
+              ['/en/economic/06_retain_governance_right.md', 'Retain Governance Right'],
+              ['/en/economic/07_Impossible_Triangle_of_Derivatives.md', 'Impossible Triangle of Derivatives'],
+              ['/en/economic/08_vtokenmint_incentives.md', 'vTokenmint Incentives'],
+              ['/en/economic/09_vTokenmint_Channel_Funds.md', 'vTokenmint Channel Funds'],
+              ['/en/economic/10_Risk_Control.md', 'Risk Control'],
+              ['/en/economic/11_Bifrost_Native_Token(BNC).md', 'Bifrost Native Token (BNC)'],
+              ['/en/economic/12_Value_Capture.md', 'Value Capture'],
+              ['/en/economic/13_Incentive_Model.md', 'Retain Governance Right'],
+              ['/en/economic/14_Participants.md', 'Participants'],
             ],
           },
           {
-            title: 'System Structure',
+            title: 'Token Structure',
             collapsable: false,
             sidebarDepth: 0,
             children: [
-              ['/en/system_structure/01_system_structure.md', 'Structure'],
-              ['/en/system_structure/02_consensus.md', 'Consensus'],
-              ['/en/system_structure/03_node.md', 'Node'],
-              ['/en/system_structure/04_runtime_environment.md', 'Runtime Environment'],
-              ['/en/system_structure/05_offchain_worker.md', 'Off-Chain Worker'],
-              ['/en/system_structure/06_security.md', 'Security'],
-              ['/en/system_structure/07_account_system.md', 'Account System'],
+              ['/en/system_structure/01_Token_Distribution.md', 'Token Distribution'],
+              ['/en/system_structure/02_BNC_Stracture.md', 'BNC Structure'],
+              ['/en/system_structure/03_Ecosystem.md', 'Ecosystem'],
+              ['/en/system_structure/04_vToken_Holding_Incentives.md', 'vToken Holding Incentives'],
+              ['/en/system_structure/05_Initial_Parallel_Chain_Offering_(IPO).md', 'Initial Parallel Chain Offering (IPO)'],
+              ['/en/system_structure/06_Collator.md', 'Collator'],
+              ['/en/system_structure/07_Slash_Insurance_Fund.md', 'Slash Insurance Fund'],
+              ['/en/system_structure/08_The_Unlocking_Period.md', 'The Unlocking Period'],
             ],
           },
           {
-            title: 'Cross Chain',
+            title: 'Risk Control',
             collapsable: false,
+            path: '/en/Risk_Control.md',
             sidebarDepth: 0,
-            children: [
-              ['/en/cross_chain/01_cross_chain_mode.md', 'Technology'],
-              ['/en/cross_chain/02_interoperate_bridge.md', 'Bridge'],
-              ['/en/cross_chain/03_cross_chain_assets.md', 'Assets'],
-            ],
           },
           {
-            title: 'Progress',
+            title: 'Roadmap & Milestone',
             collapsable: false,
+            path: '/en/ROAD MAP.md',
             sidebarDepth: 0,
-            children: [
-              ['/en/progress/01_roadmap.md', 'Roadmap'],
-              ['/en/progress/02_participants.md', 'Participants'],
-            ],
           },
           {
             title: 'Conclusion',
@@ -201,7 +218,7 @@ module.exports = {
             sidebarDepth: 0,
             children: [
               ['/zh/system_structure/01_BNC_release.md', '代币分发'],
-              ['/zh/system_structure/02_structure.md', 'BNC代币结构'],
+              ['/zh/system_structure/02_structure.md', 'BNC 代币结构'],
               ['/zh/system_structure/03_Ecosystem.md', '生态系统'],
               ['/zh/system_structure/04_vToken_holding_incentives.md', 'vToken 持币激励'],
               ['/zh/system_structure/05_initial_parachain_offering(IPO).md', '首次平行链发行（IPO）'],
@@ -221,19 +238,13 @@ module.exports = {
           {
             title: 'Roadmap & Milestone',
             collapsable: false,
-            path: '/zh/roadmap&milestone/roadmap.md',
+            path: '/zh/roadmap_milestone/roadmap.md',
             sidebarDepth: 0,
           },
           {
             title: '结论',
             collapsable: false,
             path: '/zh/conclusion/conclusion.md',
-            sidebarDepth: 0,
-          },
-          {
-            title: '免责申明',
-            collapsable: false,
-            path: '/zh/DISCLAIMER.md',
             sidebarDepth: 0,
           }
         ],

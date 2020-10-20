@@ -1,4 +1,6 @@
-# Overview
+# Competition between Staking and DeFi rewards
+
+<img :src="$withBase('/zh/Picture1.png')" alt="Picture1" />
 
 With the current emergence of new DeFi products, such as Yield Farming, DeFi products may offer users an incredible annual rate of return, but whether this prosperity is built on the ETH PoW consensus that can be maintained under the ETH 2.0 or Polkadot PoS consensus? Users can only choose one between DeFi or Staking as the problem of reward. If DeFi rewards cannot cover the cost of Staking bonding, users will move their assets from DeFi to Staking by higher reward selection. Vise versa, users will transfer their assets from Staking to DeFi products, but insufficient Staking rate may cause security problems of PoS network consensus. Thus either way will face a lose-lose situation.
 

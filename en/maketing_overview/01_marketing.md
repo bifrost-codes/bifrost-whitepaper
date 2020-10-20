@@ -1,3 +1,3 @@
-# Background
+# Market Overview
 
 With the development of more public chains adopting PoS consensus to improve project availability and decentralization, 80 more PoS public chains with more than $ 145.3 billion total market value have been born. Through Staking, over $ 2.5 billion rewards will be generated each year. Meanwhile, with the DeFi market boom and the anticipation of the Ethereum 2.0 Staking launch will stimulate the crypto market in 2020. The rapid growth of decentralized finance (DeFi) and the Staking market is pushing the two mechanisms of DeFi and Staking to interact frequently in the blockchain landscape and overlap to create more composability, but problems ensue.
