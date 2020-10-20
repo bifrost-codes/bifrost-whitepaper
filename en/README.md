@@ -6,14 +6,14 @@ actionText: 开始阅读 →
 actionLink: /zh/getting_started/01_marketing.md
 features:
   - 
-    title: Hedge
-    details: Anti-inflation, prevent devaluation of staking assets, no lock-up position
+    title: 风险对冲
+    details: 抗通胀，防止 Staking 资产贬值，无需锁仓
   - 
-    title: Double Rewards
-    details: Get staking rewards and DeFi interests at the same time
+    title: 双重收益
+    details: 同时获得 Staking 和 DeFi 双重收益
   - 
-    title: Leverage
-    details: Use vToken lending leverage to expand staking principal
+    title: Staking 杠杆
+    details: 通过 vToken 借贷，实现 Staking 资产杠杆，扩大本金和 Staking 收益
 footer: Copyright © 2019-2020 Bifrost Finance and Contributors
 ---
 
