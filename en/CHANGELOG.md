@@ -1,10 +1,11 @@
-# Change Log
+# 更新日志
 
-- `v0.1.0` Bifrost White Paper Initialization
-- `v0.2.0` Added BNC economic model
-- `v0.3.0` Added three pool valuation model, technical details of the bridge
-- `v0.4.0` Optimize BNC economic model and reduce initial circulation speed
-- `v0.5.0` Increase unlock release curve
-- `v0.5.1` Unlocked Release Curve Supplementary Advisor Classification
-- `v0.5.2` Optimize the background color of the unlock release curve
-- `v0.6.0` Adjust the staking gain mechanism, increase the control exchange rate, and achieve development-free, network-wide clearing and settlement solutions
+- `v0.1.0` Bifrost 白皮书初版
+- `v0.2.0` 增加 BNC 经济模型
+- `v0.3.0` 增加三池估值模型，转接桥技术细节
+- `v0.4.0` 优化 BNC 经济模型，降低初期流通速度
+- `v0.5.0` 增加解锁释放曲线
+- `v0.5.1` 解锁释放曲线补充顾问分类
+- `v0.5.2` 优化解锁释放曲线背景色
+- `v0.6.0` 调整 Staking 增益机制，增加调控汇率，实现无需开发，全网清结算解决方案
+- `v1.1.0` 调整经济模型，完善 vToken、票权竞价、激励等更多细节
