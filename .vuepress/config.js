@@ -129,12 +129,6 @@ module.exports = {
             sidebarDepth: 0,
           },
           {
-            title: 'Disclaimer',
-            collapsable: false,
-            path: '/en/DISCLAIMER.md',
-            sidebarDepth: 0,
-          },
-          {
             title: 'Change Log',
             collapsable: false,
             path: '/en/CHANGELOG.md',
