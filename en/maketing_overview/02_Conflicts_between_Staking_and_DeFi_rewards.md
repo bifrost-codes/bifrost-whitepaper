@@ -1,4 +1,4 @@
-# Competition between Staking and DeFi rewards
+# Competition between Staking and DeFi 
 
 <img :src="$withBase('/zh/Picture1.png')" alt="Picture1" />
 
