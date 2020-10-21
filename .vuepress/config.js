@@ -166,7 +166,7 @@ module.exports = {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-              ['/zh/marketing_overview/01_background.md', '背景'],
+              ['/zh/marketing_overview/01_marketing.md', '背景'],
               ['/zh/marketing_overview/02_conflicts_between_staking_and_defi_rewards.md', 'Staking 和 DeFi 收益竞争问题'],
               ['/zh/marketing_overview/03_conflicts_between_liquidity_and_security_in_pos.md', 'PoS 网络流动性和安全性互斥问题'],
               ['/zh/marketing_overview/04_conflicts_between_liquidity_and_security_in_pos.md', 'PoS 网络流动性和安全性互斥问题'],
