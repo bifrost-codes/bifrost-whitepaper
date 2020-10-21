@@ -1,4 +1,4 @@
-# PoS 网络流动性和安全性互斥问题
+# 跨链场景下 Staking 收益问题
 
 <img :src="$withBase('/zh/Picture3.png')" alt="Picture3" />
 

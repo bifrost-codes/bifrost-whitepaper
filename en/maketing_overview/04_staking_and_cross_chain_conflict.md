@@ -1,4 +1,4 @@
-# Conflicts between Liquidity and Security
+# Staking and Cross-chain Conflict
 
 <img :src="$withBase('/zh/Picture3.png')" alt="Picture3" />
 
