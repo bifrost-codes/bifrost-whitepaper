@@ -2,6 +2,29 @@ module.exports = {
   base: '/',
   title: 'Bifrost Finance Whitepaper',
   description: "A parachain designed for staking's liquidity. 为 Staking 提供流动性的跨链网络。",
+  plugins: [
+    [
+      'vuepress-plugin-medium-zoom',
+      {
+        selector: '.my-wrapper .my-img',
+        delay: 1000,
+        options: {
+          margin: 24,
+          background: '#BADA55',
+          scrollOffset: 0,
+        },
+      },
+    ],
+    [
+      'vuepress-plugin-mathjax',
+      {
+        target: 'svg',
+        macros: {
+          '*': '\\times',
+        },
+      },
+    ],
+  ],
   markdown: {
     lineNumbers: true,
   },
@@ -211,8 +234,8 @@ module.exports = {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-              ['/zh/system_structure/01_BNC_release.md', '代币分发'],
-              ['/zh/system_structure/02_structure.md', 'BNC 代币结构'],
+              // ['/zh/system_structure/01_BNC_release.md', '代币分发'],
+              // ['/zh/system_structure/02_structure.md', 'BNC 代币结构'],
               ['/zh/system_structure/03_Ecosystem.md', '生态系统'],
               ['/zh/system_structure/04_vToken_holding_incentives.md', 'vToken 持币激励'],
               ['/zh/system_structure/05_initial_parachain_offering(IPO).md', '首次平行链发行（IPO）'],

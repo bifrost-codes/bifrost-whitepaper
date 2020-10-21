@@ -5,5 +5,9 @@
   "scripts": {
     "docs:dev": "vuepress dev",
     "docs:build": "vuepress build"
+  },
+  "devDependencies": {
+    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-medium-zoom": "^1.1.9"
   }
 }
