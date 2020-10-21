@@ -91,10 +91,10 @@ module.exports = {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-              ['/en/Project_introduction/01_project_introduction.md', 'Project Introduction'],
-              ['/en/Project_introduction/02_implementation_plan.md', 'Implementation Plan'],
-              ['/en/Project_introduction/03_business_staking.md', 'Business - Staking'],
-              ['/en/Project_introduction/04_business_ipo.md', 'Buiness - IPO'],
+              ['/en/project_introduction/01_project_introduction.md', 'Project Introduction'],
+              ['/en/project_introduction/02_implementation_plan.md', 'Implementation Plan'],
+              ['/en/project_introduction/03_business_staking.md', 'Business - Staking Liquidity'],
+              ['/en/project_introduction/04_business_ipo.md', 'Buiness - IPO Liquidity'],
             ],
           },
           {
@@ -104,39 +104,32 @@ module.exports = {
             children: [
               ['/en/economic/01_economic_objectives.md', 'Economic Objectives'],
               ['/en/economic/02_voucher_token_(vtoken).md', 'Voucher Token (vToken)'],
-              ['/en/economic/03_bifrost_native_token(bnc).md', 'Bifrost Native Token (BNC)'],
-            ],
-          },
-          {
-            title: 'Token Structure',
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-              ['/en/system_structure/01_token_distribution.md', 'Token Distribution'],
+              ['/en/economic/03_bifrost_native_token.md', 'Bifrost Native Token (BNC)'],
+              ['/en/economic/04_token_distribution.md', 'Token Distribution'],
             ],
           },
           {
             title: 'Risk Control',
             collapsable: false,
-            path: '/en/risk_control.md',
+            path: '/en/risk_control/risk_control.md',
             sidebarDepth: 0,
           },
           {
             title: 'Roadmap & Milestone',
             collapsable: false,
-            path: '/en/road_map.md',
+            path: '/en/road_map/road_map.md',
             sidebarDepth: 0,
           },
           {
             title: 'Conclusion',
             collapsable: false,
-            path: '/en/conclusion.md',
+            path: '/en/conclusion/conclusion.md',
             sidebarDepth: 0,
           },
           {
-            title: 'Change Log',
+            title: 'References',
             collapsable: false,
-            path: '/en/CHANGELOG.md',
+            path: '/en/references/references.md',
             sidebarDepth: 0,
           }
         ],
@@ -184,10 +177,10 @@ module.exports = {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-              ['/zh/Project_Introduction/01_project_introduction.md', '项目简介'],
-              ['/zh/Project_Introduction/02_implementation_plan.md', '实施方案'],
-              ['/zh/Project_Introduction/03_business_staking.md', '典型业务-Staking'],
-              ['/zh/Project_Introduction/04_business_ipo.md', '典型业务 - IPO'],
+              ['/zh/project_introduction/01_project_introduction.md', '项目简介'],
+              ['/zh/project_introduction/02_implementation_plan.md', '实施方案'],
+              ['/zh/project_introduction/03_business_staking.md', '典型业务 - Staking Liquidity'],
+              ['/zh/project_introduction/04_business_ipo.md', '典型业务 - IPO Liquidity'],
             ],
           },
           {
@@ -197,15 +190,8 @@ module.exports = {
             children: [
               ['/zh/economic/01_economic_objectives.md', '经济模型设计目标'],
               ['/zh/economic/02_voucher_token_(vtoken)', 'Voucher Token(vToken)'],
-              ['/zh/economic/03_bifrost_native_Token.md', 'Bifrost Native Token（BNC）'],
-            ],
-          },
-          {
-            title: '代币模型',
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-              ['/zh/system_structure/01_bnc_release.md', '代币分发'],
+              ['/zh/economic/03_bifrost_native_token.md', 'Bifrost Native Token（BNC）'],
+              ['/zh/economic/04_token_distribution.md', '代币分发']
             ],
           },
           {
@@ -217,13 +203,19 @@ module.exports = {
           {
             title: 'Roadmap & Milestone',
             collapsable: false,
-            path: '/zh/roadmap_milestone/roadmap.md',
+            path: '/zh/road_map/road_map.md',
             sidebarDepth: 0,
           },
           {
             title: '结论',
             collapsable: false,
             path: '/zh/conclusion/conclusion.md',
+            sidebarDepth: 0,
+          },
+          {
+            title: '参考文献',
+            collapsable: false,
+            path: '/zh/references/references.md',
             sidebarDepth: 0,
           }
         ],
