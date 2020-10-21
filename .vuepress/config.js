@@ -91,10 +91,10 @@ module.exports = {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-              ['/en/project_introduction/01_project_introduction.md', 'Project Introduction'],
-              ['/en/project_introduction/02_implementation_plan.md', 'Implementation Plan'],
-              ['/en/project_introduction/03_business_staking.md', 'Business - Staking Liquidity'],
-              ['/en/project_introduction/04_business_ipo.md', 'Buiness - IPO Liquidity'],
+              ['/en/project/01_project_introduction.md', 'Project Introduction'],
+              ['/en/project/02_implementation_plan.md', 'Implementation Plan'],
+              ['/en/project/03_business_staking.md', 'Business - Staking Liquidity'],
+              ['/en/project/04_business_ipo.md', 'Buiness - IPO Liquidity'],
             ],
           },
           {
@@ -177,10 +177,10 @@ module.exports = {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-              ['/zh/project_introduction/01_project_introduction.md', '项目简介'],
-              ['/zh/project_introduction/02_implementation_plan.md', '实施方案'],
-              ['/zh/project_introduction/03_business_staking.md', '典型业务 - Staking Liquidity'],
-              ['/zh/project_introduction/04_business_ipo.md', '典型业务 - IPO Liquidity'],
+              ['/zh/project/01_project_introduction.md', '项目简介'],
+              ['/zh/project/02_implementation_plan.md', '实施方案'],
+              ['/zh/project/03_business_staking.md', '典型业务 - Staking Liquidity'],
+              ['/zh/project/04_business_ipo.md', '典型业务 - IPO Liquidity'],
             ],
           },
           {
