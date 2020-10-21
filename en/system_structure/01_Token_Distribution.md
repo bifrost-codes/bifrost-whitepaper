@@ -24,7 +24,7 @@ Only projects that obtain the parachain slot can be called Polkadot parachain, w
 
 ## Collator
 
-When Bifrost converts from an independent main-net to a parachain, Bifrost Validators will change to a Collators. Then, the Staking module will stop and Bifrost network will no longer inflate BNC, Collator will be motivated by Token from the reserved portion of the protocol.
+When Bifrost connects to the parallel chain and goes online on the main network, Collator will be supported to provide the service, and to incentivize higher quality and broader range of Collator services. The protocol will incentivize BNC based on the amount of work Collator does to provide the service, and the system will reserve 10% of the ecosystem's BNC for Collator Motivation.
 
 ## Slash Insurance Fund
 
