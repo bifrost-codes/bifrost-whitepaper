@@ -1,4 +1,4 @@
-# Conflicts between Liquidity and Security in PoS
+# Conflicts between Liquidity and Security
 
 <img :src="$withBase('/zh/Picture2.png')" alt="Picture2" />
 
