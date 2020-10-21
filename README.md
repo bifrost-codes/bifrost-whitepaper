@@ -1,9 +1,9 @@
 ---
 home: true
 heroText: Bifrost Whitepaper
-tagline: A parachain designed for staking's liquidity
+tagline: A parachain designed for staking liquidity
 actionText: Get Started →
-actionLink: /en/maketing_overview/01_marketing.md
+actionLink: /en/marketing_overview/01_marketing.md
 features:
 - title: Hedge
   details: Anti-inflation, prevent devaluation of staking assets, no lock-up position

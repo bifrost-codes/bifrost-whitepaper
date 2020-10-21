@@ -3,7 +3,7 @@ home: true
 heroText: Bifrost Whitepaper
 tagline: 为 Staking 提供流动性的跨链网络
 actionText: 开始阅读 →
-actionLink: /zh/marketing_overview/01_background.md
+actionLink: /zh/marketing_overview/01_marketing.md
 features:
 - title: 风险对冲
   details: 抗通胀，防止 Staking 资产贬值，无需锁仓

@@ -8,3 +8,4 @@
 - `v0.5.1` Unlocked Release Curve Supplementary Advisor Classification
 - `v0.5.2` Optimize the background color of the unlock release curve
 - `v0.6.0` Adjust the staking gain mechanism, increase the control exchange rate, and achieve development-free, network-wide clearing and settlement solutions
+- `v1.1.0` adjust the economic model, improve vToken, vote bidding, incentives and more details
