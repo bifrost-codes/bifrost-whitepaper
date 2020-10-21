@@ -179,7 +179,7 @@ module.exports = {
             children: [
               ['/zh/project_introduction/01_project_introduction.md', '项目简介'],
               ['/zh/project_introduction/02_implementation_plan.md', '实施方案'],
-              ['/zh/project_introduction/03_business_staking.md', '典型业务 - Staking Liquidity'],
+              ['/zh/project_introduction/03_business_staking_1.md', '典型业务 - Staking Liquidity'],
               ['/zh/project_introduction/04_business_ipo.md', '典型业务 - IPO Liquidity'],
             ],
           },
