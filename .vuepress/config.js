@@ -80,10 +80,10 @@ module.exports = {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-              ['/en/maketing_overview/01_marketing.md', 'Marketing'],
-              ['/en/maketing_overview/02_conflicts_between_staking_and_defi_rewards.md', 'Competition between Staking and DeFi rewards'],
-              ['/en/maketing_overview/03_conflicts_between_liquidity_and_security_in_pos.md', 'Conflicts between Liquidity and Security in PoS'],
-              ['/en/maketing_overview/04_staking_and_cross_chain_conflict.md', 'Staking and Cross-chain Conflict'],
+              ['/en/marketing_overview/01_marketing.md', 'Marketing'],
+              ['/en/marketing_overview/02_conflicts_between_staking_and_defi_rewards.md', 'Competition between Staking and DeFi rewards'],
+              ['/en/marketing_overview/03_conflicts_between_liquidity_and_security_in_pos.md', 'Conflicts between Liquidity and Security in PoS'],
+              ['/en/marketing_overview/04_staking_and_cross_chain_conflict.md', 'Staking and Cross-chain Conflict'],
             ],
           },
           {
