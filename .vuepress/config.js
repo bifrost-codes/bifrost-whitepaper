@@ -167,9 +167,9 @@ module.exports = {
             sidebarDepth: 0,
             children: [
               ['/zh/marketing_overview/01_marketing.md', '背景'],
-              ['/zh/marketing_overview/02_conflicts_between_staking_and_defi_rewards.md', 'Staking 和 DeFi 收益竞争问题'],
-              ['/zh/marketing_overview/03_conflicts_between_liquidity_and_security_in_pos.md', 'PoS 网络流动性和安全性互斥问题'],
-              ['/zh/marketing_overview/04_staking_and_cross_chain_conflict.md', '跨链场景下 Staking 收益问题'],
+              ['/zh/marketing_overview/02_conflicts_between_staking_and_defi_rewards.md', 'Staking 和 DeFi 收益竞争'],
+              ['/zh/marketing_overview/03_conflicts_between_liquidity_and_security_in_pos.md', 'PoS 网络流动性和安全性互斥'],
+              ['/zh/marketing_overview/04_staking_and_cross_chain_conflict.md', '跨链场景下 Staking 收益'],
             ],
           },
           {
@@ -191,7 +191,7 @@ module.exports = {
               ['/zh/economic/01_economic_objectives.md', '经济模型设计目标'],
               ['/zh/economic/02_voucher_token_(vtoken).md', 'Voucher Token(vToken)'],
               ['/zh/economic/03_bifrost_native_token.md', 'Bifrost Native Token（BNC）'],
-              ['/zh/economic/04_token_distribution.md', '代币分发']
+              ['/zh/economic/04_token_distribution.md', '代币分发'],
             ],
           },
           {
