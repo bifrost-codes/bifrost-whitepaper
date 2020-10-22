@@ -95,7 +95,6 @@ module.exports = {
               ['/en/project/02_implementation_plan.md', 'Implementation Plan'],
               ['/en/project/03_business_staking.md', 'Business - Staking Liquidity'],
               ['/en/project/04_business_ipo.md', 'Buiness - IPO Liquidity'],
-              ['/en/project/05_risk_control.md', 'Risk Control'],
             ],
           },
           {
@@ -107,6 +106,7 @@ module.exports = {
               ['/en/economic/02_voucher_token_(vtoken).md', 'Voucher Token (vToken)'],
               ['/en/economic/03_bifrost_native_token.md', 'Bifrost Native Token (BNC)'],
               ['/en/economic/04_token_distribution.md', 'Token Distribution'],
+              ['/en/economic/05_risk_control.md', 'Risk Control'],
             ],
           },
           {
@@ -176,7 +176,6 @@ module.exports = {
               ['/zh/project/02_implementation_plan.md', '实施方案'],
               ['/zh/project/03_business_staking.md', '典型业务 - Staking Liquidity'],
               ['/zh/project/04_business_ipo.md', '典型业务 - IPO Liquidity'],
-              ['/zh/project/05_05_risk_control.md', '风险控制'],
             ],
           },
           {
@@ -187,9 +186,8 @@ module.exports = {
               ['/zh/economic/01_economic_objectives.md', '经济模型设计目标'],
               ['/zh/economic/02_voucher_token_(vtoken).md', 'Voucher Token (vToken)'],
               ['/zh/economic/03_bifrost_native_token.md', 'Bifrost Native Token (BNC)'],
-              ['/zh/economic/02_voucher_token_(vtoken).md', 'Voucher Token(vToken)'],
-              ['/zh/economic/03_bifrost_native_token.md', 'Bifrost Native Token（BNC）'],
               ['/zh/economic/04_token_distribution.md', '代币分发'],
+              ['/zh/economic/05_risk_control.md', '风险控制'],
             ],
           },
           {
