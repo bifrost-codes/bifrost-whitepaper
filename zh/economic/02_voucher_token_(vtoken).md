@@ -17,7 +17,11 @@ Bifrost 是一个完全去中心化的网络，将质押资产生息、结算、
 
 如何保证衍生品对应收益的去中心化产生，同时又使其提供流动性更加简单，增加衍生品兼容场景是关键，所以 vToken 的收益结算方式被设计为可以同时兼容中心化和去中心化场景的，中心化场景中，第三方无需额外开发即可支持 vToken 的兑换和使用，同时将 vToken 托管在中心化热钱包或者冷钱包中的用户，依然可以无损获得 vToken 所产生的收益。这得益于 vToken 摒除了传统的链上交易结算的方式，而采用铸币价格上调的方式来完成 vToken 收益的结算，所以为避免后来用户瓜分先前用户的收益，不同时间段进入的用户都将遵循当前时刻的铸币价格。
 
+### 名词说明
+<img :src="$withBase('/zh/Picture10.png')" alt="Picture10" />
 
+### 计算公式
+<img :src="$withBase('/zh/Picture11.png')" alt="Picture11" />
 
 ***案例 A***：A 用户使用 10 DOT 通过 Bifrost 根据铸币价格（0.01 Token）铸造 1000 vDOT，原 DOT 通过 Voucher Notary 和 Voucher Bidder 博弈完成 Staking 操作，一周后原 DOT 通过 Staking 产生 0.5 DOT 收益，而通过 Staking 产生的 DOT 收益不会对应铸造新的 vDOT，所以铸币价格由原先的 0.01 Token 上调至 0.0105，此刻 1000 vDOT 将可以赎回 10.5 DOT，多产生的 0.5 DOT 则为 A 用户持有一周 vDOT 的 Staking 收益。
 
