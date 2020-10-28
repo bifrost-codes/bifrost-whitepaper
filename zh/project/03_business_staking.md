@@ -4,5 +4,6 @@
 
 <img :src="$withBase('/zh/Picture5.png')" alt="Picture5" />
 <div align = center>图1 直接进行 Staking 的交互流程</div> 
+
 <img :src="$withBase('/zh/Picture6.png')" alt="Picture6" />
-                                                           图2 通过 Bifrost 进行 Staking 的交互流程
+<div align = center>图2 通过 Bifrost 进行 Staking 的交互流程</div>
