@@ -1,6 +1,6 @@
 # Token Distribution
 
-The goal of BNC distribution is to make Bifrost network being more decentralized, build market scale for Staking derivative of vToken, and incentivize a liquid market. Thus every step of BNC distribution will be thinking critically for the health of the Bifrost protocol. To achieve the goal, BNC will reserve 40% tokens as incentives for the entire ecosystem, including vTokenmint, PLO slot auctions, Collator node incentives, Oracle usage and cross-chain costs.
+The goal of BNC distribution is to make Bifrost network being more decentralized, build market scale for Staking derivative of vToken, and incentivize a liquid market. Thus every step of BNC distribution will be thinking critically for the health of the Bifrost protocol. To achieve the goal, BNC will reserve 45% tokens as incentives for the entire ecosystem, including vTokenmint, PLO slot auctions, Collator node incentives, Oracle usage and cross-chain costs.
 
 ## BNC Stracture
 
