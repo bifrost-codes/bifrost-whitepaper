@@ -34,8 +34,8 @@
 >* Launched Mainnet
 
 ## 2021 Q1
->* Announce IPO detail & Auction page
->* IPO & Auction Polkadot SLOT
+>* Announce PLO detail & Auction page
+>* PLO & Auction Polkadot SLOT
 >* Support sDOT (Parachain slot auctions DOT)
 >* Support vDOT/vKSM/vETH(2.0)/vEOS
 
