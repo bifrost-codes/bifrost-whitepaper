@@ -4,7 +4,7 @@ BNC 分发目标为让 Bifrost.网络更加去中心化、构建 Staking 衍生�
 
 ## BNC代币结构
 
-<img :src="$withBase('/zh/Picture17.png')" alt="Picture17" width="500px"/>
+<img :src="$withBase('/zh/Picture17.png' )" alt="Picture17" width="500px"/>
 
 <img :src="$withBase('/zh/Picture18.png')" alt="Picture18" width="700px"/>
 
