@@ -12,7 +12,7 @@ BNC 分发目标为让 Bifrost.网络更加去中心化、构建 Staking 衍生�
 
 <img :src="$withBase('/zh/Picture19.png')" alt="Picture19" width="500px"/>
 
-<img :src="$withBase('/zh/Picture20.png')" alt="Picture20" width="800px"/>
+<img :src="$withBase('/zh/Picture20.png')" alt="Picture20" width="700px"/>
 
 ## vToken 持币激励
 
